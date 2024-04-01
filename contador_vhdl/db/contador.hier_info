@@ -1,0 +1,19 @@
+|contador
+clk => reg_contador[0].CLK
+clk => reg_contador[1].CLK
+clk => reg_contador[2].CLK
+clk => reg_contador[3].CLK
+reset => reg_contador.OUTPUTSELECT
+reset => reg_contador.OUTPUTSELECT
+reset => reg_contador.OUTPUTSELECT
+reset => reg_contador.OUTPUTSELECT
+seletor => reg_contador.OUTPUTSELECT
+seletor => reg_contador.OUTPUTSELECT
+seletor => reg_contador.OUTPUTSELECT
+seletor => reg_contador.OUTPUTSELECT
+contador[0] <= reg_contador[0].DB_MAX_OUTPUT_PORT_TYPE
+contador[1] <= reg_contador[1].DB_MAX_OUTPUT_PORT_TYPE
+contador[2] <= reg_contador[2].DB_MAX_OUTPUT_PORT_TYPE
+contador[3] <= reg_contador[3].DB_MAX_OUTPUT_PORT_TYPE
+
+
